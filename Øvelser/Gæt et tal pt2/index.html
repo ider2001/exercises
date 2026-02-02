@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gæt mit tal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1>Gæt mit tal!</h1>
+
+      <p class="rangetext">
+        Tænk på et tal mellem <span id="minvalg">1</span> og
+        <span id="maxvalg">100</span>. Fortæl computeren om den skal gætte
+        højere eller lavere.
+      </p>
+
+      <div class="guessbox">
+        <p>Computerens gæt:</p>
+        <div id="guess" class="guessnumber">X</div>
+        <p id="tekst" class="text">Tryk "Start" når du er klar.</p>
+      </div>
+
+      <div class="buttons">
+        <button id="startbtn">Start</button>
+        <button id="correctbtn">Rigtigt!</button>
+        <button id="lowerbtn">Lavere</button>
+        <button id="higherbtn">Højere</button>
+      </div>
+
+      <p class="tries">Antal gæt: <span id="tries">0</span></p>
+    </div>
+
+    <script src="geatettal.js"></script>
+  </body>
+</html>

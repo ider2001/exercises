@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: brown;
+}
+
+.game {
+  background: rgb(140, 9, 9);
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+  max-width: 420px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #e6c7c7;
+}
+
+.rangetext {
+  font-size: 0.95rem;
+  color: #e6c7c7;
+
+  margin-bottom: 1.5rem;
+}
+
+.guessbox {
+  border-radius: 12px;
+
+  background: #e6c7c7;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.guessbox p {
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.guessnumber {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0.3rem 0 0.4rem;
+}
+
+.statustext {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.inactive {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  flex: 1 1 45%;
+  padding: 0.6rem 0.8rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.08s ease,
+    box-shadow 0.08s ease,
+    background 0.15s ease;
+}
+
+#startbtn {
+  background: #8825eb;
+  color: #ffffff;
+}
+
+#higherbtn {
+  background: #364bef;
+  color: #ffffff;
+}
+
+#lowerbtn {
+  background: #364bef;
+  color: #ffffff;
+}
+
+#correctbtn {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.tries {
+  font-size: 0.85rem;
+  color: #e6c7c7;
+  text-align: right;
+}
