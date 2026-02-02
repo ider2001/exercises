@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simpel lommeregner</title>
+  </head>
+  <body>
+    <h1>Simpel lommeregner</h1>
+
+    <input type="number" id="tal1" />
+
+    <select id="valg">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+
+    <input type="number" id="tal2" />
+
+    =
+    <input type="text" id="resultat" readonly />
+
+    <br /><br />
+    <button id="beregnBtn">Beregn</button>
+
+    <script src="lommeregner.js"></script>
+  </body>
+</html>
