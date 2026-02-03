@@ -1,0 +1,36 @@
+.calcualtor {
+  width: 200px;
+  margin: 50px auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#dispay {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #000;
+}
+
+button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* https://medium.com/@cyrilbassey/navigating-javascript-my-journey-to-building-a-simple-calculator-088146f45f85
+
