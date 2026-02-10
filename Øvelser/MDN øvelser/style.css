@@ -1,0 +1,9 @@
+body [data-filter="fox"] {
+  background-color: red;
+  color: black;
+}
+
+body [data-filter="bat"] {
+  background-color: black;
+  color: white;
+}
