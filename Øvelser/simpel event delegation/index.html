@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="board">
+      Event
+      <span class="remove" data-action="remove"></span>
+    </div>
+    <div>Event</div>
+    <div>Event</div>
+  </body>
+
+  <script>
+    const board = document.querySelector("#board")
+
+    board.addEventListener('click', klik);
+    function klik (evt) {
+        if (evt.target.dataset.action === "remove") {
+            evt.target.colset('.tag').remove();
+
+        }else  {
+            const tag = evt.
+
+        }
+    }
+  </script>
+</html>
